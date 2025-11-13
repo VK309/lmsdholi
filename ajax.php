@@ -1,11 +1,11 @@
 <?php 
- require_once("functions.php");
+require_once("functions.php");
 $mainfunc = new mainfunctions;
 $action =  $_POST['action'];
 if($action == "send_message"){ 
   unset($_POST['action']);
   $data = $_POST;
-  $table="messages";
+  $table = "messages";
    if($_POST['message'] !== ""){
     if($mainfunc->insertQuery($table,$data)){
       $student_id = ""; 
@@ -37,11 +37,7 @@ if($action == "update_seen_status"){
    unset($data['action']);
    $table = "messages";
    $data = array('seen_status'=>'1');
-   $condition = "student_id= '$student_id '";
+   $condition = "student_id = ' $student_id '";
    $mainfunc->updateQuery($table, $data, $condition);
-
 }
-  
-
-
 ?>
