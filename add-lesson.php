@@ -1,5 +1,5 @@
-<?php 
- echo $usertype = $current_user['user_type']; 
+<?php  
+ $usertype = $current_user['user_type']; 
  check_super_admin($usertype);
 ?>
 <div class="nk-block-head nk-block-head-sm">

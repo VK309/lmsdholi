@@ -3,7 +3,7 @@
                                         <div class="nk-block-head-content">
                                             <h3 class="nk-block-title page-title">Course Category</h3>
                                             <div class="nk-block-des text-soft">
-                                                <p>You have total 8 Categories testing</p>
+                                                <p>You have total 8 Categories</p>
                                             </div>
                                         </div>
                                         <div class="nk-block-head-content">
