@@ -2,7 +2,7 @@
 error_reporting(0);
 session_start();
 include('smtp/PHPMailerAutoload.php');
-$conn = mysqli_connect("localhost", "tajsyxak_lmsdholi", '#TR+eWf#p.3J', 'tajsyxak_lmsdholi');
+$conn = mysqli_connect("localhost", "dholi", '', 'dholi');
 
     //$sessionID =  session_id();
 class mainfunctions
@@ -255,3 +255,4 @@ function smtp_mailer($to,$subject, $msg){
 		return 'Sent';
 	}
 }
+
