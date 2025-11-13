@@ -1,4 +1,5 @@
 <?php 
+echo "1234";
 require_once("functions.php");
 $mainfunc = new mainfunctions;
 $action =  $_POST['action'];
@@ -41,3 +42,4 @@ if($action == "update_seen_status"){
    $mainfunc->updateQuery($table, $data, $condition);
 }
 ?>
+
