@@ -41,5 +41,7 @@ if($action == "update_seen_status"){
    $condition = "student_id = ' $student_id '";
    $mainfunc->updateQuery($table, $data, $condition);
 }
+
 ?>
 
+<p>test</p>
